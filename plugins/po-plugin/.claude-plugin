@@ -1,0 +1,8 @@
+{
+  "name": "po-plugin",
+  "description": "Product Owner toolkit — create and refine JIRA tickets with codebase-aware technical context",
+  "skills": [
+    "skills/story-creator",
+    "skills/ticket-refiner"
+  ]
+}
