@@ -1,9 +1,0 @@
-{
-  "name": "tekknoschtev-plugins",
-  "description": "Sample Claude Code plugin marketplace for testing and validation",
-  "plugins": [
-    "plugins/po-plugin",
-    "plugins/ui-dev-plugin",
-    "plugins/qa-plugin"
-  ]
-}
