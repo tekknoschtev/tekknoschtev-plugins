@@ -1,5 +1,5 @@
 {
-  "name": "@testcompany/qa-plugin",
+  "name": "testcompany-qa-plugin",
   "description": "QA engineer toolkit — test plan generation, structured bug reporting, and testing standards enforcement",
   "version": "1.0.0"
 }
