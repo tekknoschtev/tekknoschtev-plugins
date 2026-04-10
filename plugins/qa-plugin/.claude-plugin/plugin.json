@@ -1,8 +1,5 @@
 {
   "name": "qa-plugin",
   "description": "QA engineer toolkit — test plan generation, structured bug reporting, and testing standards enforcement",
-  "skills": [
-    "skills/test-plan-generator",
-    "skills/bug-report-creator"
-  ]
+  "version": "1.0.0"
 }

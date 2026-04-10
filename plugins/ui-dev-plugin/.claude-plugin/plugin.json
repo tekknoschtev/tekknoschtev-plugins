@@ -1,7 +1,5 @@
 {
   "name": "ui-dev-plugin",
   "description": "Frontend developer toolkit — accessibility auditing, component conventions, and commit-time quality checks",
-  "skills": [
-    "skills/a11y-audit"
-  ]
+  "version": "1.0.0"
 }

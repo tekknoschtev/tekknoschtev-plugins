@@ -86,17 +86,20 @@ When the Jira MCP is not available, all skills gracefully fall back to outputtin
 
 ```
 tekknoschtev-plugins/
-  .claude-plugin              # Marketplace manifest
+  .claude-plugin/
+    marketplace.json          # Marketplace manifest
   plugins/
     po-plugin/
-      .claude-plugin          # Plugin manifest
+      .claude-plugin/
+        plugin.json           # Plugin manifest
       skills/
         story-creator/
           SKILL.md
         ticket-refiner/
           SKILL.md
     ui-dev-plugin/
-      .claude-plugin
+      .claude-plugin/
+        plugin.json
       skills/
         a11y-audit/
           SKILL.md
@@ -105,7 +108,8 @@ tekknoschtev-plugins/
       rules/
         ui-conventions.md
     qa-plugin/
-      .claude-plugin
+      .claude-plugin/
+        plugin.json
       skills/
         test-plan-generator/
           SKILL.md
@@ -119,7 +123,7 @@ tekknoschtev-plugins/
 
 To add a new plugin:
 
-1. Create a directory under `plugins/` with a `.claude-plugin` manifest
+1. Create a directory under `plugins/` with a `.claude-plugin/plugin.json` manifest
 2. Add skills, hooks, and/or rules in subdirectories
-3. Register the plugin in the root `.claude-plugin` manifest
+3. Register the plugin in `.claude-plugin/marketplace.json`
 4. Update this README with the plugin's description and contents
