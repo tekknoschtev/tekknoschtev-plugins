@@ -1,4 +1,4 @@
-# tekknoschtev-plugins
+# @testcompany/plugins
 
 A sample Claude Code plugin marketplace for testing and validating plugin distribution before rolling out to a team.
 
@@ -35,14 +35,14 @@ Or, if working with a local clone:
 Once the marketplace is registered, install individual plugins by name:
 
 ```
-/install-plugin po-plugin
-/install-plugin ui-dev-plugin
-/install-plugin qa-plugin
+/install-plugin @testcompany/po-plugin
+/install-plugin @testcompany/ui-dev-plugin
+/install-plugin @testcompany/qa-plugin
 ```
 
 ## What's Included
 
-### po-plugin — Product Owner Toolkit
+### @testcompany/po-plugin — Product Owner Toolkit
 
 Tools for creating and refining JIRA tickets with codebase-aware context.
 
@@ -51,7 +51,7 @@ Tools for creating and refining JIRA tickets with codebase-aware context.
 | Skill | **story-creator** | Create structured user stories from a conversation or brief description. Produces tickets with business problem, acceptance criteria, open items, and references. |
 | Skill | **ticket-refiner** | Read an existing ticket and enrich it with technical context discovered from the codebase — relevant code paths, affected models/APIs, risks, and test coverage gaps. |
 
-### ui-dev-plugin — Frontend Developer Toolkit
+### @testcompany/ui-dev-plugin — Frontend Developer Toolkit
 
 Accessibility auditing, component conventions, and commit-time quality checks for frontend engineers.
 
@@ -61,7 +61,7 @@ Accessibility auditing, component conventions, and commit-time quality checks fo
 | Hook | **pre-commit** | Block commits that introduce ESLint warnings or accessibility violations (missing alt text, invalid anchors, click handlers without keyboard support). |
 | Rule | **ui-conventions** | Enforce component structure, prop patterns, accessibility requirements, styling rules, state management practices, and naming conventions. |
 
-### qa-plugin — QA Engineer Toolkit
+### @testcompany/qa-plugin — QA Engineer Toolkit
 
 Test planning, structured bug reporting, and testing standards enforcement for QA engineers.
 
@@ -124,6 +124,7 @@ tekknoschtev-plugins/
 To add a new plugin:
 
 1. Create a directory under `plugins/` with a `.claude-plugin/plugin.json` manifest
-2. Add skills, hooks, and/or rules in subdirectories
-3. Register the plugin in `.claude-plugin/marketplace.json`
-4. Update this README with the plugin's description and contents
+2. Use the `@testcompany/` namespace prefix in the plugin's `name` field (e.g., `@testcompany/my-plugin`)
+3. Add skills, hooks, and/or rules in subdirectories
+4. Register the plugin in `.claude-plugin/marketplace.json`
+5. Update this README with the plugin's description and contents

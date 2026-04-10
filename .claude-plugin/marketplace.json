@@ -1,11 +1,11 @@
 {
-  "name": "tekknoschtev-plugins",
+  "name": "@testcompany/plugins",
   "owner": {
-    "name": "tekknoschtev"
+    "name": "testcompany"
   },
   "plugins": [
     {
-      "name": "po-plugin",
+      "name": "@testcompany/po-plugin",
       "source": "./plugins/po-plugin",
       "description": "Product Owner toolkit — create and refine JIRA tickets with codebase-aware technical context",
       "version": "1.0.0",
@@ -14,7 +14,7 @@
       }
     },
     {
-      "name": "ui-dev-plugin",
+      "name": "@testcompany/ui-dev-plugin",
       "source": "./plugins/ui-dev-plugin",
       "description": "Frontend developer toolkit — accessibility auditing, component conventions, and commit-time quality checks",
       "version": "1.0.0",
@@ -23,7 +23,7 @@
       }
     },
     {
-      "name": "qa-plugin",
+      "name": "@testcompany/qa-plugin",
       "source": "./plugins/qa-plugin",
       "description": "QA engineer toolkit — test plan generation, structured bug reporting, and testing standards enforcement",
       "version": "1.0.0",

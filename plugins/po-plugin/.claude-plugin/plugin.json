@@ -1,5 +1,5 @@
 {
-  "name": "po-plugin",
+  "name": "@testcompany/po-plugin",
   "description": "Product Owner toolkit — create and refine JIRA tickets with codebase-aware technical context",
   "version": "1.0.0"
 }

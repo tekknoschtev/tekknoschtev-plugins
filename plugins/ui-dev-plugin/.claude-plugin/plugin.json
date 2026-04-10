@@ -1,5 +1,5 @@
 {
-  "name": "ui-dev-plugin",
+  "name": "@testcompany/ui-dev-plugin",
   "description": "Frontend developer toolkit — accessibility auditing, component conventions, and commit-time quality checks",
   "version": "1.0.0"
 }
